@@ -3,8 +3,8 @@ commodity Rp
 
 include accounts.hledger
 
+include general.journal
+include purchase.journal
 include sales.journal
 include cash receipts.journal
 include cash disbursements.journal
-include purchases.journal
-include general.journal
