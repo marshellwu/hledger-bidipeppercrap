@@ -1,11 +1,31 @@
-2022-01-02 bought office supplies
-    expenses:office supplies                    Rp100,000
-    assets:current assets:cash:cash in shop
+alias bank bri = assets:current assets:cash:bank bri
+alias cash = assets:current assets:cash:cash in shop
+alias office supplies = expenses:office supplies
 
-2022-01-03 bought office supplies
-    expenses:office supplies                    Rp100,000
-    assets:current assets:cash:cash in shop
+alias alie motor = liabilities:accounts payable:alie motor
 
-2022-01-03 Fransisco Wijaya | deposit to bank bri ; deposit:Fransisco Wijaya
-    assets:current assets:cash:bank bri         Rp5,000,000
-    assets:current assets:cash:cash in shop
+alias alie = liabilities:dividends payable:alie
+alias ajin = liabilities:dividends payable:ajin
+alias peng = liabilities:dividends payable:peng
+
+2022-01-07 * Peng & Ajin | dividends payout ; penarikan dividen payout:ajin, payout:peng
+    ajin            Rp2,750,000
+    peng            Rp2,750,000
+    cash
+
+2022-01-07 * Alie Motor | payment of PO#01 ; pembayaran tagihan + penarikan dividen payment:Alie Motor, payout:alie
+    cash            Rp-20,000,000
+    alie            Rp5,500,000
+    alie motor
+
+2022-01-05 * Fransisco Wijaya | deposit to bank bri ; deposit:Fransisco Wijaya
+    bank bri        Rp3,000,000
+    cash
+
+2022-01-02 * bought office supplies
+    office supplies            Rp100,000
+    cash
+
+2022-01-04 * bought office supplies
+    office supplies            Rp50,000
+    cash

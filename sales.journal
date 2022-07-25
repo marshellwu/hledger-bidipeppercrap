@@ -1,22 +1,3 @@
-alias cash = assets:current assets:cash:cash in shop
 alias cogs = expenses:cost of goods sold
 alias inventory = assets:current assets:inventory
 alias sales = revenue:sales
-
-2022-01-01 * daily sales
-    cash            Rp3,000,000
-    sales           Rp-3,000,000
-    cogs            Rp2,000,000
-    inventory
-
-2022-01-02 daily sales
-    cash            Rp2,500,000
-    sales           Rp-2,500,000
-    cogs            Rp1,700,000
-    inventory
-
-2022-01-03 daily sales
-    cash            Rp3,000,000
-    sales           Rp-3,000,000
-    cogs            Rp2,000,000
-    inventory

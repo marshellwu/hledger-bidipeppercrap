@@ -1,0 +1,25 @@
+alias earnings = equity:retained earnings
+alias dividends declared = liabilities:dividends declared
+
+alias alie = liabilities:dividends payable:alie
+alias ajin = liabilities:dividends payable:ajin
+alias peng = liabilities:dividends payable:peng
+
+2022-01-07 * income summary                ; penghasilan periode 2022-07-01 - 2022-07-06
+    revenue            Rp29,100,000
+    expenses           Rp-17,150,000
+    income summary
+
+2022-01-07 * profit retained               ; penahanan laba
+    income summary     Rp11,950,000
+    earnings
+
+2022-01-07 * dividend declared             ; pengambilan dividen
+    earnings           Rp11,000,000
+    dividends declared
+
+2022-01-07 * dividend shares               ; pembagian saham
+    dividends declared
+    alie               Rp-5,500,000
+    ajin               Rp-2,750,000
+    peng               Rp-2,750,000

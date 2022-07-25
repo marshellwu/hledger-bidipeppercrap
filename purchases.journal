@@ -1,3 +1,6 @@
-2022-01-01 supplies from alie motor
-    assets:current assets:inventory            Rp50,000,000
-    liabilities:accounts payable:alie motor
+alias alie motor = liabilities:accounts payable:alie motor
+alias inventory = assets:current assets:inventory
+
+2022-01-01 * supplies from alie motor
+    inventory            Rp50,000,000
+    alie motor

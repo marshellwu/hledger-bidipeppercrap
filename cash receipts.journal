@@ -1,3 +1,56 @@
-2022-01-01 Miau Lie | opening balances
-    assets:current assets:cash:cash in shop            Rp1,000,000
+alias cash = assets:current assets:cash:cash in shop
+alias sales = revenue:sales
+alias cogs = expenses:cost of goods sold
+alias inventory = assets:current assets:inventory
+
+2022-01-08 * daily sales
+    cash            Rp6,000,000
+    sales           Rp-6,000,000
+    cogs            Rp3,500,000
+    inventory
+
+2022-01-07 * daily sales
+    cash            Rp2,600,000
+    sales           Rp-2,600,000
+    cogs            Rp1,600,000
+    inventory
+
+2022-01-06 * daily sales
+    cash            Rp3,000,000
+    sales           Rp-3,000,000
+    cogs            Rp1,800,000
+    inventory
+
+2022-01-01 * Miau Lie | opening balances
+    cash            Rp1,000,000
     equity:alie
+
+2022-01-01 * daily sales
+    cash            Rp3,000,000
+    sales           Rp-3,000,000
+    cogs            Rp1,800,000
+    inventory
+
+2022-01-02 * daily sales
+    cash            Rp2,500,000
+    sales           Rp-2,500,000
+    cogs            Rp1,300,000
+    inventory
+
+2022-01-03 * daily sales
+    cash            Rp5,000,000
+    sales           Rp-5,000,000
+    cogs            Rp2,800,000
+    inventory
+
+2022-01-04 * daily sales
+    cash            Rp2,000,000
+    sales           Rp-2,000,000
+    cogs            Rp1,200,000
+    inventory
+
+2022-01-05 * daily sales
+    cash          Rp5,000,000
+    sales         Rp-5,000,000
+    cogs          Rp3,000,000
+    inventory     Rp-3,000,000

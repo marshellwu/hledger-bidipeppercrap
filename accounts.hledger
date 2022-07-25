@@ -1,13 +1,22 @@
+account income summary
+
 account assets:current assets:cash:cash in shop
 account assets:current assets:inventory
 account assets:current assets:cash:bank bri
 account assets:fixed assets
 
+account revenue
 account revenue:sales
 
+account expenses
 account expenses:cost of goods sold
 account expenses:office supplies
 
 account liabilities:accounts payable:alie motor
+account liabilities:dividends declared
+account liabilities:dividends payable:alie
+account liabilities:dividends payable:ajin
+account liabilities:dividends payable:peng
 
 account equity:alie
+account equity:retained earnings
