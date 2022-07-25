@@ -6,5 +6,9 @@ This example is intended for bidipeppercrap business.
 
 Always run with `--strict` to prevent any accounts mistyping.
 ```
-ledger -f ./main.journal --strict reg "cash in shop$"
+hledger -f ./main.journal --strict reg "cash in shop$"
+
+// or
+
+hledger-web -f ./main.journal --strict
 ````
