@@ -1,0 +1,13 @@
+account assets:current assets:cash:cash in shop
+account assets:current assets:inventory
+account assets:current assets:cash:bank bri
+account assets:fixed assets
+
+account revenue:sales
+
+account expenses:cost of goods sold
+account expenses:office supplies
+
+account liabilities:accounts payable:alie motor
+
+account equity:alie

@@ -1,0 +1,10 @@
+decimal-mark .
+commodity Rp
+
+include accounts.hledger
+
+include sales.journal
+include cash receipts.journal
+include cash disbursements.journal
+include purchases.journal
+include general.journal
